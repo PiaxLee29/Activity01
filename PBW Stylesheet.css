@@ -1,0 +1,223 @@
+body {
+    background-color: rgb(35, 35, 36); /* Actual background color */
+        background: linear-gradient(to bottom, rgb(5, 5, 5) 50%, rgb(88, 116, 121) 100%); /* Added a Gradient background for design */
+}
+.navbar {
+    overflow: hidden; /* Ensure the navbar content is properly contained */
+        background-color: #141414;
+            position: sticky; /* Make the navbar stay at the top */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #add3a8;
+    text-align: center;
+    padding: 12px 17px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #5fb963;
+    color: black;
+}
+
+/* Main content*/
+.main {
+    margin-top: 20px; /* Add a top margin to avoid content overlay */
+}
+
+#A {
+    font-size: 150%;
+    text-align: center;
+    color: #ad3333;
+}
+
+/* Header styles */
+h1 {
+    color: rgb(51, 129, 134);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #3c3da7;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+/* top header styles for strong emphasis*/
+h4 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: larger;
+}
+
+#myPicture {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: #141414;
+    float: right;
+    width: 248px;
+    height: 248px;
+}
+
+#KeyList {
+    font-size: 200%;
+    color: #ffffff;
+    text-align: left;
+}
+
+#KeyPoints {
+    list-style-type: square;
+    color: #ffffff;
+    font-size: larger;
+    text-align: none;
+    
+}
+
+#Ha {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: #141414;
+    font-size: 200%;
+    text-align: center;
+    color: #ffffff;
+    transform: none; /* Reset any previous transform */
+}
+
+#Ha2 {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: #272727;
+    font-size: 200%;
+    text-align: center;
+    color: #ffffff;
+    transform: none; /* Reset any previous transform */
+}
+
+/* The title style for the devices design */    
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* The title style for the devices design */
+h2:hover {
+    box-sizing: border-box;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    color: rgb(41, 144, 184);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: #141414;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 42%;
+  }
+}
+
+.column2 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row2 {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: #272727;
+}
+
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 42%;
+  }
+}
+
+.column3 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row3 {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background-color: #464646;
+}
+
+.row3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 42%;
+  }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444a4d;
+    color: #ffffff;
+    font-size: larger;
+}
